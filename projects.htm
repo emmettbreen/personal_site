@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+}
+
+.me-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.my-info-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+h1, h2{
+  display: inline;
+}
+a{
+  text-decoration: none;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 70px;
+  background-color: grey;
+}
+
+.nav-item {
+  background-color: #f44336;
+  padding: 5px;
+  border: 2px solid black;
+  text-align: center;
+  display: inline-block;
+  border-radius: 20px;
+}
+
+.info-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.info-column-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+</style>
+</head>
+
+
+<body style="font-family:Verdana; margin:40px">
+
+
+<div class="header-container">
+
+<div class="me-container">
+
+<div>
+<img src="/me.png" width="250" height="275" style="border-radius: 20px;">
+</div>
+
+<div class="my-info-container">
+
+<div>
+<h1 style="font-size: 350%;"> Emmett Breen </h1> 
+</div>
+
+<div>
+<img src="/cornell.png" height="60" width="270"> 
+</div>
+
+<div>
+<h1>Computer Scientist </h1>
+</div>
+
+</div>
+
+</div>
+
+
+<div>
+</div>
+
+</div>
+
+
+<br>
+<br>
+
+
+<div class="nav-container">
+
+<div class="nav-item">
+<a href="/index.htm"> <h2 style="color:white;">About</h2> </a>
+</div>
+
+<div class="nav-item">
+<a href="/education.htm"> <h2 style="color:white;">Education</h2> </a>
+</div>
+
+<div class="nav-item">
+<a href="/projects.htm"> <h2 style="color:white;">Projects</h2> </a>
+</div>
+
+</div>
+
+
+
+<br>
+<br>
+
+<div class="info-container">
+
+<div class="info-column-container">
+
+<div>
+<h1 style="font-size: 300%;"> Cube Solver: </h1>
+<br>
+<h2 style="font-size: 150%;"> A backend piece of software capable of solving a rubix cube, developed in Python in 2022 </h2>
+<ul style="font-size: 150%;"> 
+<li> takes in a json file with specified colors on each face </li>
+<li> configures a backend model that translates the color inputs to a functional rubix cube </li>
+<li> confirms whether the configuration is valid </li>
+<li> (currently) uses a brute force algorithm in a breadth-first-search style to return the needed rotations to solve the cube
+  due to the exponential nature of the rubix cube configuration tree, the algorithm is only quick (and feasible) for solving scrambles of less than 6 moves </li>
+</ul>
+</div>
+
+<div>
+<h1 style="font-size: 300%;"> Catan: </h1>
+<br>
+<h2 style="font-size: 150%;"> A terminal-based version of a classic board game written in OCaml for my CS 3110 final project in 2021 </h2>
+<ul style="font-size: 150%;">
+<li> randomly generates Catan maps that can keep track of players settlements and roads </li>
+<li> distributes resources to players based on roll number and settlement location </li>
+<li> blocks resource collection based on location of robber which changes</li>
+<li> uses strictly recursion to change game state based on user input</li>
+</ul>
+<h3> Other Contributors:</h3>
+<ul>
+  <li>Evan Williams</li>
+  <li>Jack Li</li>
+  <li>Zachary Ross</li>
+</ul>
+</div>
+
+<div>
+<h1 style="font-size: 300%;"> Shortest Path Models: </h1>
+<br>
+<h2 style="font-size: 150%;"> A series of Jupyter notebooks illustration the application of graph theory to real-life problems developed for ENGRI 1101 in 2021 </h2>
+<ul style="font-size: 150%;">
+<li> Application of Djikstra's algorithm to minimize the variance of line lengths in a text file with a model that takes the user through each iteration of the algorithm with the corresponding output </li>
+<li> Application of Djikstra's algorithm to minimize the cost of maintaining an inventory of pipes with a toy example of how a small inventory can be modeled with a graph and how deciding what pipes ot store corresponds to paths in the graph </li>
+</ul>
+</div>
+
+<div>
+<h1 style="font-size: 300%;"> Street Sweeper Mania: </h1>
+<br>
+<h2 style="font-size: 150%;"> An reflex and memorization based arcade game written in Swift and released to the App Store in 2020 </h2>
+<ul style="font-size: 150%;">
+<li> 3,000+ product page views </li>
+<li> 550+ downloads spanning 5 countries and 3 continents</li>
+<li> 19 reviews, all of which are 5 stars</li>
+<li> <a href="https://emmettbreendevelopment.wordpress.com/"> Click here for more information </a>
+</ul>
+</div>
+
+<div>
+<h1 style="font-size: 300%;"> Tower Defense: </h1>
+<br>
+<h1 style="font-size: 150%;"> A game written in Java for my AP Computer Science A final project in 2019 </h1>
+<ul style="font-size: 150%;">
+<li> displays a graphical user interface written completely in Java</li>
+<li> enables real-time user interactions </li>
+<li> uses geometric and trigonometric calculations for movements and trajectories</li>
+</ul>
+<h3> Other Contributors</h3>
+<ul>
+  <li>Christian Donovan</li>
+</ul>
+</div>
+
+</div>
+
+
+<div class="info-column-container" style="align-items: flex-end;">
+
+<div>
+<img src="/cs.png" width="350" height="300" style="border: 2px solid black; border-radius: 20px;">
+</div>
+
+<div>
+<img src="/catan.png" width="300" height="400" style="border: 2px solid black; border-radius: 20px;">
+</div>
+
+<div>
+<img src="/spm.png" width="420" height="200" style="border: 2px solid black; border-radius: 20px;">
+</div>
+
+<div>
+<img src="/ssm.png" width="200" height="400" style="border: 2px solid black; border-radius: 20px;">
+</div>
+
+<div>
+<img src="/td.png" width="300" height="300" style="border: 2px solid black; border-radius: 20px;">
+</div>
+
+</div>
+
+</div>
+
+<br>
+<br>
+
+<footer>
+<h5>Emmett Breen © 2022</h5>
+</footer>
+
+</body>
+</html>
