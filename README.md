@@ -1,7 +1,7 @@
 # Personal Site
 ## 2022
 
-Currently active: < a href="https:emmettbreen.com">
+Currently active: <a href="https:emmettbreen.com">
 
 As an engineering and computer science student, web development is a topic that has been completely self-taught. I learned HTML and CSS to create a website that contains some information about me and some of the projects found here on my GithHub.
 
