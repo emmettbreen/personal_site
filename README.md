@@ -7,6 +7,6 @@ As an engineering and computer science student, web development is a topic that 
 Projects page:
 <img width="1428" width = "800" src="https://user-images.githubusercontent.com/90010213/148138104-9b408de6-b744-4116-a21e-e554cc51e876.png">
 Home page design:
-<img width="1434" height = "600" src="https://user-images.githubusercontent.com/90010213/148138093-76fa119d-68aa-4c2e-a4b6-950366ad4b68.png">
+<img width="1433" width= "800" src="https://user-images.githubusercontent.com/90010213/148321875-3cb6353e-56df-4b60-9d2a-917c3634ebfb.png">
 Education page:
 <img width="1416" width = "800" src="https://user-images.githubusercontent.com/90010213/148138102-1b3aa148-8293-48f7-845f-6c9a1f6c1802.png">
